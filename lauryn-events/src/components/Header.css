@@ -1,0 +1,101 @@
+/* .header {
+    background-color: #fff;
+    padding: 20px;
+    text-align: center;
+  } */
+  
+  /* Header.css */
+/* .header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 40px;
+  background-image: url('../assets/Lauryn-logo-image.jpg'); Adjust path as necessary */
+  /* background-size: cover; Ensures the image covers the entire area */
+  /* background-position: center;
+  background-repeat: no-repeat;
+  color: white; Set text color for contrast */
+  /* text-align: center;
+  height: 200px; Adjust this height to make it more rectangular */
+/* } */
+
+/* .header h1 {
+  font-size: 1.8rem;
+  background-color: rgba(0, 0, 0, 0.5); Optional background for better text contrast */
+  /* padding: 10px 20px;
+  border-radius: 5px;
+} */
+
+/* Header.css */
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 250px;
+  background: linear-gradient(45deg, #d4d4d4, #c0c0c0, #b0b0b0, #e0e0e0); /* Silver base gradient */
+  background-size: 400% 400%; /* Large size for smoother transitions */
+  color: #fff;
+  position: relative;
+  overflow: hidden;
+  animation: silverShift 8s ease-in-out infinite; /* Slow animation for gentle shine */
+}
+
+/* Optional shimmer effect overlay */
+.header::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: linear-gradient(60deg, rgba(255, 255, 255, 0.2), rgba(255, 255, 255, 0.8), rgba(255, 255, 255, 0.2));
+  background-size: 200% 200%;
+  opacity: 0.3;
+  animation: shimmer 5s linear infinite;
+}
+
+/* Keyframes for silver base gradient shift */
+@keyframes silverShift {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+/* Keyframes for shimmer effect */
+@keyframes shimmer {
+  0% { background-position: 0% 50%; }
+  100% { background-position: 100% 50%; }
+}
+
+.header-logo2 {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.header-logo {
+  flex: 2; /* Makes the main logo section take up more space */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.main-logo {
+  width: 90%; /* Larger main logo */
+  height: auto;
+  max-width: 400px; /* Control max size for larger displays */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.side-logo {
+  width: 85%; /* Smaller size for side logos */
+  height: auto;
+  border-radius: 8px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.side-logo:hover {
+  transform: scale(1.5); /* Slight zoom on hover for a subtle effect */
+}

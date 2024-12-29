@@ -1,0 +1,11 @@
+/* WelcomeMessage.css */
+.welcome-message {
+    text-align: center;
+    color: #8B0000; /* Dark raspberry color */
+    margin-top: 20px;
+    font-size: 1.8rem;
+    padding: 10px;
+    background-color: rgba(0, 0, 0, 0.1); /* Optional background for contrast */
+    border-radius: 5px;
+  }
+  

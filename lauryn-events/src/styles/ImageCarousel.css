@@ -1,0 +1,18 @@
+.image-carousel {
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+    padding: 20px 0;
+  }
+  
+  .image-carousel img {
+    max-width: 200px;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s;
+  }
+  
+  .image-carousel img:hover {
+    transform: scale(1.1);
+  }
+  

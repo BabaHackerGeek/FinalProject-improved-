@@ -1,0 +1,55 @@
+/* .navbar {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    background-color: #8B0000; /* Raspberry color */
+  /* } */
+  /* .navbar a {
+    margin: 0 10px;
+    color: white;
+    text-decoration: none;
+  } */
+  
+
+   
+/* Navbar.css */
+.navbar {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 20px;
+  background-color: #c52253; /* Raspberry color */
+  color: white;
+  font-weight: bold;
+  gap: 20px;
+}
+
+.navbar-item {
+  position: relative;
+}
+
+.dropdown-menu {
+  display: none;
+  position: absolute;
+  top: 100%; /* Places dropdown below the navbar item */
+  left: 0;
+  background-color: white;
+  box-shadow: 0px 8px 16px rgba(0, 0, 0, 0.2);
+  padding: 10px;
+  z-index: 1000;
+}
+
+.navbar-item:hover .dropdown-menu {
+  display: block; /* Show dropdown menu on hover */
+}
+
+.dropdown-menu a {
+  display: block;
+  padding: 8px 10px;
+  color: black;
+  text-decoration: none;
+}
+
+.dropdown-menu a:hover {
+  background-color: #ddd; /* Highlight option on hover */
+}

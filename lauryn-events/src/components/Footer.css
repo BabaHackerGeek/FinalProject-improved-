@@ -1,0 +1,88 @@
+/* .footer {
+    background-color: #f5f5f5;
+    padding: 10px;
+    text-align: center;
+  } */
+  
+  /* Footer.css
+.footer {
+  background-color: #333333;
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #ddd;
+  text-decoration: none;
+  margin: 0 5px;
+}
+
+.footer-links a:hover {
+  color: #fff;
+}
+
+.footer p {
+  margin: 5px 0;
+} */
+
+/* Footer.css */
+.footer {
+  background: linear-gradient(45deg, #ffd700, #b8860b); /* Gold gradient */
+  color: white;
+  text-align: center;
+  padding: 20px;
+  font-size: 0.9rem;
+}
+
+.footer-links {
+  margin: 10px 0;
+}
+
+.footer-links a {
+  color: #fdfdfd; /* Light color for contrast against gradient */
+  text-decoration: none;
+  margin: 0 5px;
+  font-weight: bold;
+}
+
+.footer-links a:hover {
+  color: #fff;
+  text-shadow: 0px 0px 5px rgba(255, 255, 255, 0.6);
+}
+
+.footer p {
+  margin: 5px 0;
+  color: #f8f8f8;
+  font-weight: lighter;
+}
+
+.footer p:hover {
+  text-shadow: 0px 0px 3px rgba(255, 255, 255, 0.8);
+}
+
+.image-gallery {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px; /* Space between images */
+  padding: 20px;
+  background-color: #f5f5f5; /* Light background to match the footer */
+}
+
+.image-gallery img {
+  width: 350px; /* Adjust the size as needed */
+  height: 270px; /* Keep height proportional */
+  border-radius: 5px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.image-gallery img:hover {
+  transform: scale(1.1); /* Slight zoom on hover */
+}
